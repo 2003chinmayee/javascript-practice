@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%
+}
+
+.center{
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.downloadfield{
+    width: 120px;
+    height:10px;
+    background-color: grey;
+    border-radius: 100px;
+}
+
+.range{
+    transition: all;
+    width: 0;
+    height:10px;
+    border-radius: 100px;
+    background-color:green;
+
+}
+h5{
+    display:none;
+}
